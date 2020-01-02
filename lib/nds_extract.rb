@@ -92,6 +92,5 @@ total += directors_database[8][:movies][director_movie_index][:worldwide_gross]
 director_hash.merge!(directors_database[8][:name] => total)
 director_movie_index += 1
 end
-p director_hash
-  nil
+return director_hash
 end
